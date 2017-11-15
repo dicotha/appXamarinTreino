@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.InfoContatoPage">
+    <ContentPage.Content>
+        <StackLayout Padding="25">
+            <TableView Intent="Settings" BackgroundColor="White">
+                <TableRoot>
+                    <TableSection Title="Informações">
+                        <SwitchCell Text="Privado" On="True"></SwitchCell>
+                        <SwitchCell Text="Privado"></SwitchCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <Button x:Name="BotaoMaisDetalhes" Text="Proximo" VerticalOptions="EndAndExpand" HorizontalOptions="Center" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

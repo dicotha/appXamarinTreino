@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App2"
+             Title="Agenda"
+             x:Class="App2.MainPage">
+
+    <ListView x:Name="listaContatos" ItemsSource="{Binding Contatos}" Margin="25" ItemTapped="listaContatos_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Nome}" FontAttributes="Bold" VerticalTextAlignment="Center"></Label>
+                            
+                                </StackLayout>                
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView> 
+        
+    
+</ContentPage>
