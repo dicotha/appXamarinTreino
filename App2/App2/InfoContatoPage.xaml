@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App2.InfoContatoPage">
-    <ContentPage.Content>
-        <StackLayout Padding="25">
+    <ContentPage.Content >
+        <StackLayout Padding="25" BackgroundColor="White">
             <TableView Intent="Settings" BackgroundColor="White">
                 <TableRoot>
                     <TableSection Title="Informações">
