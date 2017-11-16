@@ -5,15 +5,15 @@ using System.Text;
 
 using Xamarin.Forms;
 
+
 namespace App2
 {
 	public partial class App : Application
 	{
 		public App ()
 		{
-			InitializeComponent();
-
-			MainPage = new NavigationPage(new App2.MainPage());
+			InitializeComponent();  
+            MainPage = new NavigationPage(new App2.MainPage());
 		}
 
 		protected override void OnStart ()

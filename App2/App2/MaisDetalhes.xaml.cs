@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
 namespace App2
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
@@ -15,6 +16,9 @@ namespace App2
 		public MaisDetalhes ()
 		{
 			InitializeComponent ();
-		}
+            
+           
+           
+        }
 	}
 }
